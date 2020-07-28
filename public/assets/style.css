@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.progressHub {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 25%;
+  display: none;
+  border-right: 0.5em solid black;
+  border-bottom: 0.5em solid black;
+}
+
+.europeMap {
+  text-align: center;
+}
+
+.europeMap path {
+  fill: #00FFCD;
+  stroke: black;
+  transition: fill 0.2s;
+}
+
+.europeMap path:hover {
+  fill: #00CFA6;
+}
+
+#welcomeModal, #highscoreModal, #startGameModal {
+  background-color: #00FFCD;
+}
